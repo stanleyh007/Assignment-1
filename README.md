@@ -1,5 +1,11 @@
 # Assignment-1
 Simple DB with Hashmap-based Index
 
-Database is written in Ruby, so In case you have no Ruby installed on your system, you can run the program as in the following: <br/>
-`docker run -it --rm -v $(pwd):/src -w /src helgecph/pythonruby sh -c "ruby simple_db.rb;ruby read_theDB.rb"`
+## Prerequisites
+Because I built this simple database in Java. You need to have the JDK installed on your machine in order to run this project that can be done from here.
+
+## How to use
+You build the project and get an executable you can run using Java -jar "filename" or you run the main class in IDEA.
+
+## Notice
+Data in the database is hardcoded and application dose not have a insert or update metode, which can read the input from consolo. 
